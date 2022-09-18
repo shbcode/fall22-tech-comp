@@ -1,0 +1,20 @@
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+{% endblock %}
+<div id="banner" class="d-flex align-items-center justify-content-center">
+    <i class="fa fa-bell me-2"></i>
+        Subscribe to the <a class="mx-1"
+        href="https://checkout.subscriptiongenius.com/harvardlampoon.com/">Harvard Lampoon</a>
+        <button id="close-banner" type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+</div>
+
+{% block js %}
+<script>
+    var banner = document.getElementById("banner")
+    document.getElementById("close-banner").addEventListener("click", (e)=>{
+        banner.style.display = "none"
+        banner.classList.remove("d-flex")
+    })
+</script>
+{% endblock %}

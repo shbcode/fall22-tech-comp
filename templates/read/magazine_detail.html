@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/read.css' %}">
+<link rel="stylesheet" href="{% static 'css/detect.css' %}">
+{% endblock %}
+{% block content %}
+<div class="container pb-5">
+    <div class="mb-4">
+        {% include 'includes/ad.html' with ad_type='banner' %}
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-8 col-lg-4">
+            
+            <img src="{{magazine.cover_image.image.url}}" class="img-fluid" alt="">
+        </div>
+        <div class="col-12 col-lg-4 info-text">
+            <h1 class="mt-2 mt-lg-0 card-title">{{magazine.title}}</h1>
+            <hr>
+            {% if magazine.issue_editor %}
+                {% if magazine.custom_issue_editor %}
+                <div class="fw-bold">Issue Editor: {{magazine.custom_issue_editor}}</div>
+                {% else %}
+                <div class="fw-bold">Issue Editor: <a class="account-link" href="{% url 'account_detail' magazine.issue_editor.url_username %}">{{magazine.issue_editor.display_name}}</a></div>
+                {% endif %}
+            {% endif %}
+            {% if magazine.art_editor %}
+                {% if magazine.custom_art_editor %}
+                <div class="fw-bold">Art Editor: {{magazine.custom_art_editor}}</div>
+                {% else %}
+                <div class="fw-bold">Art Editor: <a class="account-link" href="{% url 'account_detail' magazine.art_editor.url_username %}">{{magazine.art_editor.display_name}}</a></div>
+                {% endif %}
+            {% endif %}
+            <div class="fw-bold">Publication: {{magazine.created_at|date:"F Y"}}</div>
+            <hr>
+            <div>{{magazine.description|safe}}</div>
+
+            {% if magazine.special_link %}
+            <div class="text-end">
+            <a target="_blank" class="work-link fw-bold" href="{{magazine.special_link}}">Check it out</a>
+        </div>
+            {% endif %}
+        </div>
+</div>
+
+<div class="row g-4 py-2">
+    {% if magazine.works.all.count != 0 %}
+    <hr>
+    <h1 class="text-center mb-3">Pieces</h1>
+    {% for work in magazine.works.all %}
+    <div class="col-6 col-lg-4">
+        {% include 'includes/work_card.html' %}
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>
+</div>
+{% endblock %}

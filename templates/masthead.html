@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container text-center">
+    <div class="mb-4">
+        {% include 'includes/ad.html' with ad_type='banner' %}
+    </div>
+    <h1 class="text-center">Masthead</h1>
+    {% if masthead %}
+    <div class="masthead">
+    {{masthead.text | safe}}
+</div>
+    {% else %}
+    <pre class="masthead">
+<span id="masthead-title">Board of Editors</span>
+Mark F. Pekala ’23-’24, President
+Christian L. Carson ’22-’23, Ibis
+Felix O. Deemer ’24, Narthex
+Adam S. Levin ’22-’23, Treasurer
+
+G. P. Lifrieri ’21-’22
+G. Y. Shi '22
+J. P. Wolfe ’22
+A. A. Abdilkhay '22
+Y. M. Chamieh ’21-’22
+E. B. Chenevey ’22-’23
+S. K. Lam ’23
+V. I. Nutting '21-'22
+J. R. Delgado ’22-’23
+I. Prasad ’22-’23
+B. G. Stern ’22-’23
+M. A. Vassallo ’23-’24
+A. A. Danoff '23-'24
+W. Dey ’23
+V. Gong ’23
+N. G. Hutchison ’23
+J. T. Kain ’24
+E. A. Tucci ’24
+M. M. F. Dowd ’24-'25
+
+Josephine S. Roberts ’22, Blot
+Ria Dhull '23-'24, Sanctum
+Suchetas A. Bokil ’24, Sanctum
+James G. Brady '25, Hautbois
+Samuel B. Suchin ’25, Hautbois
+Emmet A. Halm ’23-’24, Sackbut
+Isabella A. Lenzo ’22-’23, Sackbut
+Elie P. Salem ’24, Librarian
+Amelia M. Cossentino ’23, Nave
+Oliver M. Adler ’24, Nave
+John L. Nugent ’21-’22, Scribe
+Eletria Biswas ’24, Scribe
+
+<span id="masthead-title">Business Board</span>
+Ghislaine F. R. Taubman ’24, Business Manager
+Wellington L. Upstill ’25, Advertising Manager
+David J. Hacker ’23-’24, Circulation Manager
+
+L. E. Graciano ’21-’22
+B. L. Weber ’21-’22
+K. N. Rachesky ’22
+E. T. Laufer ’23
+S. M. A. Vik '22-'23
+L. W. Lee ’22-’23
+R. S. Wachen ’24
+
+Elmer W. Green, 1897-1977, Grand Curator
+    </pre>
+    {% endif %}
+</div>
+
+{% endblock %}

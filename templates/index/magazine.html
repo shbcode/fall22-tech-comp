@@ -1,0 +1,38 @@
+{% if magazine %}
+<a class="card-link" href="{% url 'magazine_detail' magazine.pk %}">
+    <div class="card shadow mb-4">
+    <img src="{{magazine.cover_image.image.url}}" class="magazine-index-image" alt="">
+
+    <div class="card-body">
+    <div class="mb-1 mt-2">
+        <h2 class="card-title text-center mb-0">{{magazine.title}}</h2>
+        <!-- <h5 class="mb-1"><div data-bs-toggle="tooltip" data-bs-placement="top" title="{{magazine.get_total_laughs}} Total Laughs" class="badge badge-laugh ms-2">{{magazine.get_total_laughs}}</div></h5> -->
+    </div>
+</a>
+    <hr>
+    <div class="text-start">
+        {% if magazine.issue_editor %}
+            {% if magazine.custom_issue_editor %}
+            <div class="fw-bold">Issue Editor: {{magazine.custom_issue_editor}}</div>
+            {% else %}
+            <div class="fw-bold">Issue Editor: <a class="account-link" href="{% url 'account_detail' magazine.issue_editor.url_username %}">{{magazine.issue_editor.display_name}}</a></div>
+            {% endif %}
+        {% endif %}
+        {% if magazine.art_editor %}
+            {% if magazine.custom_art_editor %}
+            <div class="fw-bold">Art Editor: {{magazine.custom_art_editor}}</div>
+            {% else %}
+            <div class="fw-bold">Art Editor: <a class="account-link" href="{% url 'account_detail' magazine.art_editor.url_username %}">{{magazine.art_editor.display_name}}</a></div>
+            {% endif %}
+        {% endif %}
+        <div class="fw-bold">Publication: {{magazine.created_at|date:"F Y"}}</div>
+    </div>
+    <hr>
+    <div class="card-text">{{magazine.description|truncatechars_html:200|safe}}</div>
+    <div class="text-end">
+        <a class="work-link" href="{% url 'magazine_detail' magazine.pk %}">Read More »</a>
+    </div>
+</div>
+    </div>
+
+{% endif %}

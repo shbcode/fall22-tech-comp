@@ -1,0 +1,14 @@
+{% load static %}
+<a class="card-link" href="{% url 'work_detail' work.pk %}">
+    <div class="card shadow mb-3" style="border: none">
+
+      <img src="{{work.get_preview_image.image.url}}" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title text-center mb-0 align-items-center d-flex justify-content-center">{{work.title}}{% include 'includes/laugh-badge.html' %}</h5>
+      </a>
+        <div class="work fw-bold text-center">By {% include 'includes/writer_profile_pic.html' %}</div>
+        <div class="card-text mt-3">{{work.content|striptags|truncatechars:100|safe}}</div>
+
+      </div>
+    </div>

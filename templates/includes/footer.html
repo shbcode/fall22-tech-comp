@@ -1,0 +1,30 @@
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/footer.css' %}">
+{% endblock %}
+<footer class="footer mt-auto py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 mx-auto">
+                <div class="d-flex justify-content-center">
+                    <a href="{% url 'about' %}" class="mx-2 footer-link">About</a>
+                    <div class="mx-2">|</div>
+                    <a href="{% url 'comp' %}" class="mx-2 footer-link">Comp</a>
+                    <div class="mx-2">|</div>
+                    <a href="https://checkout.subscriptiongenius.com/harvardlampoon.com/" class="mx-2 footer-link">Subscribe</a>
+                    <div class="mx-2">|</div>
+                    {% if request.user.is_authenticated %}
+                    <a class="mx-2 footer-link" href="{% url 'account_detail' request.user.url_username %}">Profile</a>
+                    <div class="mx-2">|</div>
+                    <a class="mx-2 footer-link" href="{% url 'logout' %}">Logout</a>
+                    {% else %}
+                    <a class="mx-2 footer-link" href="{% url 'login' %}">Login</a>
+                    {% endif %}
+                </div>
+            </div>
+ 
+            <small class="text-center">44 Bow Street, Cambridge, MA 02138.</small>
+            <small class="text-center">Lampoon &copy; <script>document.write(new Date().getFullYear())</script></small>
+    </div>
+    </div>
+</footer>

@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/account.css' %}">
+<link rel="stylesheet" href="{% static 'css/read.css' %}">
+{% endblock %}
+{% block content %}
+<div class="container pb-5">
+    <div class="text-center">
+        
+        <img src="{% if account.profile_picture %}{{account.profile_picture.url}}{% else %}{% static 'images/lampy_profile.png' %}{% endif %}" class="profile-picture">
+        <h2 class="profile-name pt-3 mb-0">{{account.get_name}}</h2>
+        <div class="board mb-0">{{account.get_board_display}} Board {{account.graduation_year}}</div>
+        {% if account.positions %}
+        <div class="board mb-0">{{account.positions}}</div>
+        {% endif %}
+        {% if account.year_joined %}
+        <div class="text-small fst-italic">Joined {{account.year_joined}}</div>
+        {% endif %}
+        {% if account.bio %}
+        <div class="bio">{{account.bio|linebreaks}}</div>
+        {% endif %}
+        <div class="d-flex justify-content-center align-items-center">
+            {% if request.user == account %}
+            <div class="dropdown">
+                <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Manage
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="{% url 'manage_works' %}">Works</a></li>
+                  <li><a class="dropdown-item" href="{% url 'manage_artworks' %}">Art Works</a></li>
+                  <li><a class="dropdown-item" href="{% url 'manage_ads' %}">Advertisements</a></li>
+                  <li><a class="dropdown-item" href="{% url 'account_settings' %}">Account Settings<i class="fa fa-cog fa-1x ms-2 "></i></a></li>
+                </ul>
+              </div>
+
+            {% else %}
+            <a class="mx-1" href="mailto:{{account.email}}">
+                <button class="btn btn-primary shadow">Contact</button>
+            </a>
+            {% endif %}
+        </div>
+        <hr>
+    </div>
+    <div class="row g-4 grid">
+        {% for work in works %}
+        <div class="col-6 col-lg-4">
+            {% include 'includes/work_card.html' %}
+        </div>
+        {% endfor %}
+
+        {% include 'includes/pagination.html' with page_obj=works %}
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script>
+    Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+	var msnry = new Masonry('.grid');
+	msnry.layout();
+});
+  </script>
+{% endblock %}

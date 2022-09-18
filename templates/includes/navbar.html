@@ -1,0 +1,69 @@
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+{% endblock %}
+<div id="top-navbar">
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-3 d-flex align-items-center justify-content-start">
+            <a class="social-button me-3 d-md-block d-none" href="https://www.facebook.com/theharvardlampoon/"><i class="fa fa-facebook social-icon"></i></a>
+            <a class="social-button mx-3 d-md-block d-none" href="https://twitter.com/harvardlampoon"><i class="fa fa-twitter social-icon"></i></a>
+            <a class="social-button mx-3 d-md-block d-none" href="https://www.instagram.com/harvardlampoon/"><i class="fa fa-instagram social-icon"></i></a>
+            <a data-bs-toggle="offcanvas" class="d-md-none" href="#sideNav" role="button" aria-controls="sideNav"><img width="30" id="side-nav-image" src="{% static 'images/menu-icon.svg' %}" alt=""></a>
+        </div>
+        <div class="mx-auto col-6 text-center">
+            <a class="" href="{% url 'index' %}">
+                <img width="320" class="d-none d-md-inline logo" src="{% static 'images/logo.png' %}" alt="">
+                <img width="180" class="d-md-none logo" src="{% static 'images/logo.png' %}" alt="">
+            </a>
+        </div>
+        <div class="col-3 d-flex align-items-center justify-content-end">
+              
+            <a href="#search-lightbox" class="" id="" data-bs-toggle="modal" data-bs-target="#searchModal">
+                <img id="search" class="shadow" width="40px" src="{% static 'images/search.svg' %}" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center my-3 d-none d-md-flex">
+    <a class="nav-link {%if request.path == '/' %}active{%endif%}" href="{% url 'index' %}">Home</a>
+    <a class="nav-link" href="{% url 'about' %}">About</a>
+    <a class="nav-link dropdown-toggle {%if 'read' in request.path %}active{%endif%}" href="{% url 'works' %}" id="readDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Read
+    </a>
+    <ul class="dropdown-menu shadow" aria-labelledby="readDrop">
+        <li><a class="dropdown-item" href="{% url 'works' %}">Pieces</a></li>
+        <li><a class="dropdown-item" href="{% url 'magazines' %}">Magazines</a></li>
+        <li><a class="dropdown-item" href="{% url 'books' %}">Books</a></li>
+    </ul>
+    <a class="nav-link" href="{% url 'comp' %}">Comp</a>
+    <a class="nav-link" href="{% url 'masthead' %}">Masthead</a>
+    <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+    <!-- <a class="nav-link" href="{% url 'lottery' %}">Lottery</a> -->
+    {% if request.user.is_authenticated %}
+    <a class="nav-link" href="{% url 'account_detail' request.user.url_username %}">My Profile</a>
+    {% endif %}
+</div>
+</div>
+  {% include 'includes/search_modal.html' %}
+  {% include 'includes/sideNav.html' %}
+  {% include 'includes/scroll-navbar.html' %}
+
+<script>
+    var scroll_nav = document.getElementById("scroll-navbar")
+    var top_nav = document.getElementById("top-navbar")
+    window.addEventListener("scroll", (e)=>{
+        if (window.pageYOffset >= 262){
+            scroll_nav.style.display = "block"
+            scroll_nav.style.opacity = "1"
+            console.log("switch to")
+        }
+        else{
+            scroll_nav.style.display = "none"
+            scroll_nav.style.opacity = "0"
+            scroll_nav.classList.add("d-lg-block")
+        }
+    })
+</script>

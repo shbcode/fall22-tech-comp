@@ -1,0 +1,106 @@
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/samsuchin/dev/lampoon/fall22-tech-comp/core/views.py", line 29, in index
+    return render(request, "index.html", context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'magazine_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['read/magazines/(?P<magazine_pk>[^/]+)/$']
+"GET / HTTP/1.1" 500 160798
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/samsuchin/dev/lampoon/fall22-tech-comp/core/views.py", line 29, in index
+    return render(request, "index.html", context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/samsuchin/.virtualenvs/lampoon_site/lib/python3.9/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'magazine_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['read/magazines/(?P<magazine_pk>[^/]+)/$']
+"GET / HTTP/1.1" 500 160579
+Not Found: /favicon.ico
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /apple-touch-icon.png
+"GET /favicon.ico HTTP/1.1" 404 6767
+"GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 6830
+"GET /apple-touch-icon.png HTTP/1.1" 404 6794
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6767
+"GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 6830
+Not Found: /apple-touch-icon.png
+"GET /apple-touch-icon.png HTTP/1.1" 404 6794
+Not Found: /favicon.ico
+Not Found: /apple-touch-icon.png
+Not Found: /apple-touch-icon-precomposed.png
+"GET /favicon.ico HTTP/1.1" 404 6767
+"GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 6830
+"GET /apple-touch-icon.png HTTP/1.1" 404 6794

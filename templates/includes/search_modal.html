@@ -1,0 +1,20 @@
+<form method="GET" action="{% url 'search' %}">{% csrf_token %}
+  <div id="searchModal" class="modal fade" tabindex="-1" modal-fade-transform: scale(.8)>
+    <div class="modal-dialog modal-fullscreen" modal-fade-transform: scale(.8)>
+      <div class="modal-content">
+
+        <div style="border: none;" class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex flex-column align-items-center justify-content-center">
+
+          <h3 class="d-none d-lg-block josefin text-muted fw-bold">Press ESC to close</h3>
+
+          <input style="max-width: 780px;" type="text" class="form-control text-center form-dark" name="search"
+            placeholder="Search pieces, magazines, books, and members" id="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

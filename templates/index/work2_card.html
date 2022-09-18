@@ -1,0 +1,18 @@
+{% load static %}
+<a class="card-link" href="{% url 'work_detail' work.pk %}">
+  <div class="p-2 shadow" style="border: none">
+    <div class="d-flex align-items-center">
+      <div class="me-auto">
+        <h6 class="card-title mb-1">{{work.title}}{% include 'includes/laugh-badge.html' %}</h6>
+      </a>
+        <div class="fw-bold">By {% if work.custom_display_name %}{{work.custom_display_name}}{% else %}<a
+            class="account-link" href="{% url 'account_detail' work.writer.url_username %}">
+            {{work.get_display_name}}</a>{% endif %}</div>
+      </div>
+      <div class="ms-auto">
+        <a href="{% url 'work_detail' work.pk %}">
+          <img src="{{work.get_preview_image.image.url}}" class="" width="200px" alt="...">
+        </a>
+      </div>
+    </div>
+  </div>

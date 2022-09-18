@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load core_tags %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/read.css' %}">
+<link rel="stylesheet" href="{% static 'css/account.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container pb-5">
+    {% include 'includes/ad.html' with ad_type='banner' %}
+    <h1 class="text-center pt-3">Search Results</h1>
+    <form class="mb-3" method="GET" action="{% url 'search' %}">{% csrf_token %}
+        <input type="text" class="form-control mx-auto" style="max-width: 700px;" name="search" placeholder="Search..."
+        value="{{search}}" id="">
+        </form>
+    <div class="row g-4 grid" data-masonry='{"percentPosition": true }'>
+        {% for obj in results %}
+        {% if forloop.counter|divisibleby:4 %}
+        <div class="col-6 col-md-4">
+        {% include 'includes/ad.html' with ad_type='block' %}
+      </div>
+        {% endif %}
+        {% with obj|class_name as klass %}
+        <div class="col-6 col-md-4">
+        {% if klass == 'Work' %}
+
+            {% include 'includes/work_card.html' with work=obj %}
+
+        {% elif klass == 'Magazine' %}
+
+        {% include 'includes/magazine_card.html' with magazine=obj %}
+
+        {% elif klass == 'User' %}
+
+        {% include 'includes/user_card.html' with obj=obj %}
+
+        {% endif %}
+        </div>
+        {% endwith %}
+        {% endfor %}
+
+    </div>
+    {% include 'includes/pagination.html' with page_obj=results %}
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script>
+    Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+	var msnry = new Masonry('.grid');
+	msnry.layout();
+});
+    </script>
+{% endblock %}

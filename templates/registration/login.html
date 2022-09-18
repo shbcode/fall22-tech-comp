@@ -1,0 +1,24 @@
+{% extends 'registration/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/account.css' %}">
+<style>
+
+</style>
+{% endblock %}
+
+
+{% block content %}
+<form class="needs-validation" method="post">{% csrf_token %}
+  {% include 'includes/form.html' %}
+  <div class="text-center">
+    <button class="btn btn-primary my-3 w-50" type="submit">Login</button>
+  </div>
+</form>
+<div class="list-group text-center">
+  <span class="help-text pb-2">Forgot your password? <a class="link" href="{% url 'password_reset' %}">Reset Password</a></span>
+  <span class="help-text pb-2"><a class="link" href="{% url 'index' %}">Go to The Harvard Lampoon</a></span>
+</div>
+
+{% endblock %}

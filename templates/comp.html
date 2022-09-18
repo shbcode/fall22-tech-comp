@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<!-- <link rel="stylesheet" href="{% static 'css/misc.css' %}"> -->
+{% endblock %}
+{% block content %}
+
+<div class="container">
+    <div class="mb-4">
+        {% include 'includes/ad.html' with ad_type='banner' %}
+    </div>
+    <div class="row mb-4">
+        <div class="col-12 col-md-8 mx-auto">
+            <h1 class="text-center">Comp</h1>
+            <p>Comps for Literature, Art, and Business are held each semester (Tech in fall) and are limited to the undergraduate students of Harvard University. No academic Seniors.</p>
+            <p>Introductory meetings for the Fall 2022 comp will be held at 44 Bow Street on Monday 9/12, Tuesday 9/13, Wednesday 9/14, and Friday 9/16 at 8pm. Refreshments will be served.</p>
+            <p>There will also be an off site meeting in Emerson Hall 108 on Saturday, September 17th at 5pm</p>
+            <p>Direct general inquiries to info@harvardlampoon.com</p>
+            <p>To submit anonymous questions/concerns about our comp, reach out to Eletria Biswas at eletriabiswas@gmail.com.</p>
+            <a class="account-link" href="https://forms.gle/jY8Ar1V6tQMTHYBr8">Fall 2022 Comp Sign-Up Form</a>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

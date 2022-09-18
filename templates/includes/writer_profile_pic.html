@@ -1,0 +1,6 @@
+
+{% if work.custom_display_name %}
+<div>{{work.get_display_name}}</div>
+{% else %}
+<a class="account-link" href="{% url 'account_detail' work.writer.url_username %}">{{work.get_display_name}}</a>
+{% endif %}
