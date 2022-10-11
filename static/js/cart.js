@@ -1,5 +1,5 @@
 var updateButtons = document.getElementsByClassName('updatecart')
-console.log("hi")
+console.log("hi console reader")
 console.log(updateButtons.length)
 for (var l = 0; l < updateButtons.length; l++) {
     console.log("button updated")
@@ -17,7 +17,6 @@ for (var l = 0; l < updateButtons.length; l++) {
         }
             })
 }
-console.log("hi again")
 function updateUserOrder(productId, action){
     console.log('User is authenticated, sending the data')
         var url = '/store/update_item/'
