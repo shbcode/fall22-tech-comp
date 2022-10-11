@@ -1,0 +1,27 @@
+{% extends 'base.html' %}csrf
+{% load static %}
+
+{% block content %}
+
+
+<h1 class="text-center">Lampoon Store</h1>
+
+<div class="row">
+    <div class="col-lg-4">
+        {% for product in products %}
+        <img class="thumbnail" src="{{product.imageURL}}">
+        <div class="box-element product">
+            <br>
+            <h3><strong>{{product.itemname}}</strong></h3>
+            <hr>
+    
+            <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn updatecart">Add to Cart</button>
+            <a class="btn btn-outline-success" href="#">View</a>
+            <h4 style="display: inline-block; float: right"><strong>{{product.price}}</strong></h4>
+    
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

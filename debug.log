@@ -104,3 +104,2132 @@ Not Found: /apple-touch-icon-precomposed.png
 "GET /favicon.ico HTTP/1.1" 404 6767
 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 6830
 "GET /apple-touch-icon.png HTTP/1.1" 404 6794
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6767
+Not Found: /admmin
+"GET /admmin HTTP/1.1" 404 6752
+Not Found: /store
+"GET /store HTTP/1.1" 404 7248
+Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 10, in cart
+    return render(request, 'store/cart.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: store/cart.html
+"GET /cart/ HTTP/1.1" 500 90813
+Internal Server Error: /store/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 6, in store
+    return render(request, 'store/store.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: store/store.html
+"GET /store/ HTTP/1.1" 500 90796
+Not Found: /store/
+"GET /store/ HTTP/1.1" 404 7287
+Not Found: /store/
+"GET /store/ HTTP/1.1" 404 7287
+Not Found: /store/cart/checkout
+"GET /store/cart/checkout HTTP/1.1" 404 7308
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\core\views.py", line 29, in index
+    return render(request, "index.html", context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 194035
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\core\views.py", line 29, in index
+    return render(request, "index.html", context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'store/checkout' not found. 'store/checkout' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 194205
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Internal Server Error: /store/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 6, in store
+    return render(request, 'store/store.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'end', expected 'endblock'. Did you forget to register or load this tag?
+"GET /store/ HTTP/1.1" 500 172017
+Internal Server Error: /store/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 6, in store
+    return render(request, 'store/store.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+"GET /store/ HTTP/1.1" 500 137587
+Internal Server Error: /store/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 6, in store
+    return render(request, 'store/store.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+"GET /store/ HTTP/1.1" 500 137587
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Not Found: /store/% static 'css/main.css' %
+"GET /store/%%20static%20'css/main.css'%20% HTTP/1.1" 404 7384
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 10, in cart
+    return render(request, 'store/cart.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+"GET /store/cart/ HTTP/1.1" 500 157963
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6873
+Internal Server Error: /store/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 9, in store
+    return render(request, 'store/store.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'end', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /store/ HTTP/1.1" 500 204480
+Internal Server Error: /store/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 9, in store
+    return render(request, 'store/store.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 22: 'end', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /store/ HTTP/1.1" 500 204600
+Internal Server Error: /admin/store/product/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: store_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: store_product.image
+"GET /admin/store/product/ HTTP/1.1" 500 167167
+Internal Server Error: /store/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: store_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 9, in store
+    return render(request, 'store/store.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: store_product.image
+"GET /store/ HTTP/1.1" 500 216639
+Internal Server Error: /store/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: store_product.image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 9, in store
+    return render(request, 'store/store.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: store_product.image
+"GET /store/ HTTP/1.1" 500 216639
+Not Found: /media/anime.gif
+"GET /media/anime.gif HTTP/1.1" 404 7099
+Internal Server Error: /admin/store/order/add/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 924, in log_addition
+    object_repr=str(obj),
+TypeError: __str__ returned non-string (type int)
+"POST /admin/store/order/add/ HTTP/1.1" 500 122599
+Internal Server Error: /admin/store/order/add/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 924, in log_addition
+    object_repr=str(obj),
+TypeError: __str__ returned non-string (type int)
+"POST /admin/store/order/add/ HTTP/1.1" 500 122596
+Internal Server Error: /admin/store/order/add/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1808, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 924, in log_addition
+    object_repr=str(obj),
+TypeError: __str__ returned non-string (type int)
+"POST /admin/store/order/add/ HTTP/1.1" 500 122598
+Internal Server Error: /admin/store/order/1/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type int)
+"GET /admin/store/order/1/change/ HTTP/1.1" 500 118200
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type int)
+"POST /admin/store/order/ HTTP/1.1" 500 140599
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type int)
+"POST /admin/store/order/ HTTP/1.1" 500 140599
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type int)
+"POST /admin/store/order/ HTTP/1.1" 500 140599
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type int)
+"POST /admin/store/order/ HTTP/1.1" 500 140599
+Internal Server Error: /admin/store/order/1/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type int)
+"GET /admin/store/order/1/change/ HTTP/1.1" 500 118200
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80494
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80368
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 14, in cart
+    if request.ShopUser.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'ShopUser'
+"GET /store/cart/ HTTP/1.1" 500 76485
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 14, in cart
+    if request.ShopUser.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'ShopUser'
+"GET /store/cart/ HTTP/1.1" 500 76485
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 14, in cart
+    if request.ShopUser.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'ShopUser'
+"GET /store/cart/ HTTP/1.1" 500 76485
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.ShopUser.email
+AttributeError: 'WSGIRequest' object has no attribute 'ShopUser'
+"GET /store/cart/ HTTP/1.1" 500 76522
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.email
+AttributeError: 'WSGIRequest' object has no attribute 'ShopUser'
+"GET /store/cart/ HTTP/1.1" 500 76514
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 16, in cart
+    order, created = Order.objects.get_or_create(customer=customer, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 928, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'complete' into field. Choices are: customer, customer_id, date_ordered, fulfilled, id, identification, orderedproduct, shippingaddress
+"GET /store/cart/ HTTP/1.1" 500 128572
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80497
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.ShopUser
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'ShopUser'
+"GET /store/cart/ HTTP/1.1" 500 80497
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.is_staff
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'is_staf'
+"GET /store/cart/ HTTP/1.1" 500 80492
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.is_staff
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'is_staf'
+"GET /store/cart/ HTTP/1.1" 500 80492
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.is_staff
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'is_staf'
+"GET /store/cart/ HTTP/1.1" 500 80492
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 16, in cart
+    order, created = Order.objects.get_or_create(customer=customer, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 928, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'complete' into field. Choices are: customer, customer_id, date_ordered, fulfilled, id, identification, orderedproduct, shippingaddress
+"GET /store/cart/ HTTP/1.1" 500 128224
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80497
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80497
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80497
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80497
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80497
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    customer = request.abstractbaseuser.customer
+AttributeError: 'WSGIRequest' object has no attribute 'abstractbaseuser'
+"GET /store/cart/ HTTP/1.1" 500 76576
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    if request.account.user.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'accountuser'
+"GET /store/cart/ HTTP/1.1" 500 76516
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    if request.account.user.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'account'
+"GET /store/cart/ HTTP/1.1" 500 76502
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 15, in cart
+    if request.user.is_authenticated:
+AttributeError: 'WSGIRequest' object has no attribute 'acuser'
+"GET /store/cart/ HTTP/1.1" 500 76482
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    order, created = Order.objects.get_or_create(customer=customer, complete=False)
+NameError: name 'customer' is not defined
+"GET /store/cart/ HTTP/1.1" 500 76468
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    order, created = Order.objects.get_or_create(customer=request.user.name, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'name'
+"GET /store/cart/ HTTP/1.1" 500 80585
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    order, created = Order.objects.get_or_create(customer=request.user, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 928, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'complete' into field. Choices are: customer, customer_id, date_ordered, fulfilled, id, identification, orderedproduct, shippingaddress
+"GET /store/cart/ HTTP/1.1" 500 128629
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    order, created = Order.objects.get_or_create(customer=request.user, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 928, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'complete' into field. Choices are: customer, customer_id, date_ordered, fulfilled, id, identification, orderedproduct, shippingaddress
+"GET /store/cart/ HTTP/1.1" 500 128629
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    order, created = Order.objects.get_or_create(customer=customer, complete=False)
+NameError: name 'customer' is not defined
+"GET /store/cart/ HTTP/1.1" 500 76468
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 18, in cart
+    order, created = Order.objects.get_or_create(customer=customer, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 928, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'complete' into field. Choices are: customer, customer_id, date_ordered, fulfilled, id, identification, orderedproduct, shippingaddress
+"GET /store/cart/ HTTP/1.1" 500 128834
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    customer = request.user.name
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'name'
+"GET /store/cart/ HTTP/1.1" 500 80488
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'n'
+"GET /store/cart/ HTTP/1.1" 500 80481
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80516
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 18, in cart
+    order, created = Order.objects.get_or_create(customer=customer, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 928, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'complete' into field. Choices are: customer, customer_id, date_ordered, fulfilled, id, identification, orderedproduct, shippingaddress
+"GET /store/cart/ HTTP/1.1" 500 128834
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    customer = request.user.ShopUser
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'ShopUs'
+"GET /store/cart/ HTTP/1.1" 500 80506
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    customer = request.user.ShopUser
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'ShopUs'
+"GET /store/cart/ HTTP/1.1" 500 80506
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    customer = request.user.ShopUser
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'ShopUser'
+"GET /store/cart/ HTTP/1.1" 500 80516
+Not Found: /admin/store/ordered_product/
+"GET /admin/store/ordered_product/ HTTP/1.1" 404 6391
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 18, in cart
+    order, created = Order.objects.get_or_create(customer=customer, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 928, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'complete' into field. Choices are: customer, customer_id, date_ordered, fulfilled, id, identification, orderedproduct, shippingaddress
+"GET /store/cart/ HTTP/1.1" 500 128809
+Internal Server Error: /admin/store/order/2/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1749, in changeform_view
+    with transaction.atomic(using=router.db_for_write(self.model)):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\transaction.py", line 262, in __exit__
+    connection.commit()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 330, in commit
+    self._commit()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 305, in _commit
+    with self.wrap_database_errors:
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /admin/store/order/2/change/ HTTP/1.1" 500 139993
+Internal Server Error: /admin/store/order/add/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1749, in changeform_view
+    with transaction.atomic(using=router.db_for_write(self.model)):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\transaction.py", line 262, in __exit__
+    connection.commit()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 330, in commit
+    self._commit()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 305, in _commit
+    with self.wrap_database_errors:
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /admin/store/order/add/ HTTP/1.1" 500 139454
+Internal Server Error: /admin/store/order/add/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1749, in changeform_view
+    with transaction.atomic(using=router.db_for_write(self.model)):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\transaction.py", line 262, in __exit__
+    connection.commit()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 330, in commit
+    self._commit()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 305, in _commit
+    with self.wrap_database_errors:
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /admin/store/order/add/ HTTP/1.1" 500 139454
+Internal Server Error: /admin/store/order/add/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1890, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1749, in changeform_view
+    with transaction.atomic(using=router.db_for_write(self.model)):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\transaction.py", line 262, in __exit__
+    connection.commit()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 330, in commit
+    self._commit()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 305, in _commit
+    with self.wrap_database_errors:
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /admin/store/order/add/ HTTP/1.1" 500 139454
+Not Found: /admin/store/shopuser/
+"GET /admin/store/shopuser/ HTTP/1.1" 404 6202
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 18, in cart
+    order, created = Order.objects.get_or_create(customer=customer, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 928, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'complete' into field. Choices are: customer, customer_id, date_ordered, fulfilled, id, identification, orderedproduct, shippingaddress
+"GET /store/cart/ HTTP/1.1" 500 128663
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 16, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80455
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80449
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80292
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 16, in cart
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/cart/ HTTP/1.1" 500 80443
+Internal Server Error: /store/cart/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 17, in cart
+    order, created = Order.objects.get_or_create(customer=customer, complete=False)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 928, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'complete' into field. Choices are: customer, customer_id, date_ordered, fulfilled, id, identification, orderedproduct, shippingaddress
+"GET /store/cart/ HTTP/1.1" 500 128771
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/images/arrow-up.png HTTP/1.1" 404 1917
+"GET /static/images/arrow-down.png HTTP/1.1" 404 1923
+"GET /static/uparrow.png HTTP/1.1" 404 1893
+"GET /static/downarrow.png HTTP/1.1" 404 1899
+"GET /static/uparrow.png HTTP/1.1" 404 1893
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 37, in checkout
+    return render(request, 'store/checkout.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: store/checko.html
+"GET /store/checkout/ HTTP/1.1" 500 92294
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 37, in checkout
+    return render(request, 'store/checkout.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: store/checko.html
+"GET /store/checkout/ HTTP/1.1" 500 92431
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 37, in checkout
+    return render(request, 'store/checkout.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: store/checko.html
+"GET /store/checkout/ HTTP/1.1" 500 92431
+Internal Server Error: /store/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: main.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 11, in store
+    return render(request, 'store/store.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 64, in render
+    reraise(exc, self.backend)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 85, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: main.html
+"GET /store/ HTTP/1.1" 500 142332
+Not Found: /update_item/
+"POST /update_item/ HTTP/1.1" 404 6877
+Not Found: /update_item/
+"POST /update_item/ HTTP/1.1" 404 6877
+Not Found: /update_item/
+"POST /update_item/ HTTP/1.1" 404 6877
+Not Found: /update_item/
+"POST /update_item/ HTTP/1.1" 404 6877
+Not Found: /update_item
+"GET /update_item HTTP/1.1" 404 6873
+Not Found: /update_item
+"GET /update_item HTTP/1.1" 404 6873
+Not Found: /update_item/
+"POST /update_item/ HTTP/1.1" 404 6877
+Not Found: /update_item/
+"POST /update_item/ HTTP/1.1" 404 6877
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'Order' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 39, in checkout
+    return render(request, 'store/checkout.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\models.py", line 77, in shipping
+    orderitems = self.orderitem_set.all()
+AttributeError: 'Order' object has no attribute 'orderitem_set'
+"GET /store/checkout/ HTTP/1.1" 500 183558
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'Order' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 39, in checkout
+    return render(request, 'store/checkout.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\models.py", line 77, in shipping
+    orderitems = self.orderedproduct_set.all()
+AttributeError: 'Order' object has no attribute 'orderedprod_set'
+"GET /store/checkout/ HTTP/1.1" 500 183717
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'Order' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 39, in checkout
+    return render(request, 'store/checkout.html', context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\models.py", line 77, in shipping
+    orderitems = self.orderedproduct_set.all()
+AttributeError: 'Order' object has no attribute 'orderedprod_set'
+"GET /store/checkout/ HTTP/1.1" 500 183717

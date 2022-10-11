@@ -15,6 +15,14 @@
             <li><a class="dropdown-item" href="{% url 'magazines' %}">Magazines</a></li>
             <li><a class="dropdown-item" href="{% url 'books' %}">Books</a></li>
         </ul>
+        <a class="nav-link dropdown-toggle {%if 'store' in request.path %}active{%endif%}" href="{% url 'works' %}" id="storeDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Store
+        </a>
+        <ul class="dropdown-menu shadow" aria-labelledby="storeDrop">
+            <li><a class="dropdown-item" href="{% url 'store' %}">Store</a></li>
+            <li><a class="dropdown-item" href="{% url 'cart' %}">Cart</a></li>
+            <li><a class="dropdown-item" href="{% url 'checkout' %}">Checkout</a></li>
+        </ul>
         <a class="nav-link" href="{% url 'comp' %}">Comp</a>
         <a class="nav-link" href="{% url 'masthead' %}">Masthead</a>
         <a class="nav-link" href="{% url 'contact' %}">Contact</a>

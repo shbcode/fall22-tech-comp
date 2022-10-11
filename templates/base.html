@@ -30,6 +30,29 @@
   <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBDQWH30HW"></script>
+<script type="text/javascript"> 
+  var user = '{{request.user}}'
+
+// Cookies are weird. Thanks internet for the help.
+
+  function getToken(name){
+    var cookievalue = null;
+    if(document.cookie && document.cookie !== '')
+    {
+      var cookies = document.cookie.split(';');
+      for (var i = 0; i < cookies.length; i++)
+      {
+        var cookie = cookies[i].trim();
+        if(cookie.substring(0,name.length+1) === (name + '=')){
+          cookievalue = decodeURIComponent(cookie.substring(name.length+1));
+          break;
+        }
+      }
+    }
+    return cookievalue
+  }
+  var csrftoken = getToken('csrftoken')
+</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -68,6 +91,8 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
     </script>
+    <script type="text/javascript" src="{% static 'js/cart.js' %}"></script>
+
   </body>
 <!-- Wczek reu Jkvvc -->
 </html>

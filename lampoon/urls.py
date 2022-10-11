@@ -10,6 +10,7 @@ urlpatterns = [
     path("create/", include("create.urls")),
     path("", include("account.urls")),
     path('tinymce/', include('tinymce.urls')),
+    path('store/', include('store.urls')),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
