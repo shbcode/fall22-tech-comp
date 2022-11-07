@@ -64,12 +64,12 @@ class Product(models.Model):
 
 class Order(models.Model):
     customer = models.ForeignKey("account.User", on_delete=models.SET_NULL, blank = True, null = True)
-    identification = models.CharField(max_length = 20, null=True)
+    transaction_id = models.CharField(max_length = 100, null=True)
     date_ordered = models.DateTimeField(auto_now_add=True)
     fulfilled = models.BooleanField(default = False)
     
-    def __str__(self):
-        return (self.identification)
+    def __int__(self):
+        return (self.id)
 
     @property
     def shipping(self):

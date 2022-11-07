@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <hr>
-                <input id="form-button" class="btn btn-success btn-block" type="submit" value="Continue">
+                <input id="form-button" class="btn btn-success btn-block" type="submit" value="Continue" style="background-color: #67278e; border-color: yellow">
             </form>
         </div>
     </div>
@@ -104,54 +104,58 @@
 
 
 <script type="text/javascript">
-    var shipping = '{{order.shipping}}'
-    var total = '{{order.get_cart_total|floatformat:2}}'
+        var shipping = '{{order.shipping}}'
+        var total = '{{order.get_cart_total|floatformat:2}}'
 
-    if (shipping == 'False'){
-        document.getElementById('shipping-info').innerHTML = ''
-    }
+        if (shipping == 'False'){
+            document.getElementById('shipping-info').innerHTML = ''
+        }
 
-    if (user != 'AnonymousUser'){
-        document.getElementById('user-info').innerHTML = ''
-    }
+        if (user != 'AnonymousUser'){
+            document.getElementById('user-info').innerHTML = ''
+        }
 
-   if (shipping == 'False' && user != 'AnonymousUser'){
-       //Hide form when user is logged in and no shipping necessary
-           document.getElementById('form-wrapper').classList.add("hidden");
-           //Show payment if logged in user wants to buy a non-physical item
-           document.getElementById('payment-info').classList.remove("hidden");
-   }
+        if (shipping == 'False' && user != 'AnonymousUser'){
+            //Hide form when user is logged in and no shipping necessary
+                document.getElementById('form-wrapper').classList.add("hidden");
+                //Show payment if logged in user wants to buy a non-physical item
+                document.getElementById('payment-info').classList.remove("hidden");
+        }
 
-    var form = document.getElementById('form')
-    form.addEventListener('submit', function(e){
-        e.preventdefault()
+        var form = document.getElementById('form')
+        console.log("listening...")  
+        form.addEventListener('submit', function(e){
+        e.preventDefault()
         console.log("Form submitted")
         document.getElementById('form-button').classList.add("hidden");
         document.getElementById('payment-info').classList.remove("hidden");
     })
 
-    document.getElementById('make-payment').addEventListener('click',function(e){
+    {% comment %} document.getElementById('make-payment').addEventListener('click',function(e){
         submitFormData()
-    })
+    }) {% endcomment %}
 
     function submitFormData(){
         console.log('Pay us clicked')
-        'name':null,
-        'email':null,
-        'total':total,
+        
+        var userFormData = {
+                'name':null,
+                'email':null,
+                'total':total,
+            }
 
-        var shippingInfo = {
-            'address':null,
-            'city':null,
-            'state':null,
-            'zipcode':null,
-        }
+            var shippingInfo = {
+                'address':null,
+                'city':null,
+                'state':null,
+                'zipcode':null,
+            }
 
-        if (shipping != 'False'){
-            shippingInfo.address = form.address.value
-            shippingInfo.city = form.city.value
-            shippingInfo.state = form.state.value
-            shippingInfo.zipcode = form.zipcode.value
+            if (shipping != 'False'){
+                shippingInfo.address = form.address.value
+                shippingInfo.city = form.city.value
+                shippingInfo.state = form.state.value
+                shippingInfo.zipcode = form.zipcode.value
         }
 
         if (user == 'AnonymousUser'){
@@ -162,22 +166,25 @@
         console.log('Shipping Info:', shippingInfo)
         console.log('User Info:', userFormData)
 
+        console.log("urlpre")
         var url = "/store/process_order/"
 	    fetch(url, {
-	    	method:'POST',
-	    	headers:{
-				'Content-Type':'application/json',
-				'X-CSRFToken':csrftoken,
-    		}, 
-	    	body:JSON.stringify({'form':userFormData, 'shipping':shippingInfo}),
-	    		
+                method:'POST',
+                headers:{
+                        'Content-Type':'application/json',
+                        'X-CSRFToken':csrftoken,
+                }, 
+                body:JSON.stringify({'form':userFormData, 'shipping':shippingInfo}),
 	    })
 	    .then((response) => response.json())
 	    .then((data) => {
 				console.log('Success:', data);
 				alert('Transaction completed');  
-				window.location.href = "{% url 'store' %}"
-
+				
+                cart = {}
+                document.cookie = "cart=" + JSON.stringify(cart) + ";domain=;path=/"
+                
+                window.location.href = "{% url 'store' %}"
 				})
     }
 </script>

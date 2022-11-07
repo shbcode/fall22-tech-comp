@@ -2233,3 +2233,1993 @@ Traceback (most recent call last):
     orderitems = self.orderedproduct_set.all()
 AttributeError: 'Order' object has no attribute 'orderedprod_set'
 "GET /store/checkout/ HTTP/1.1" 500 183717
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 52, in checkout
+    context = {'items':items, 'order':order, 'cartItems':cartItems}
+UnboundLocalError: local variable 'cartItems' referenced before assignment
+"GET /store/checkout/ HTTP/1.1" 500 77857
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6873
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 52, in checkout
+    context = {'items':items, 'order':order, 'cartItems':cartItems}
+UnboundLocalError: local variable 'cartItems' referenced before assignment
+"GET /store/checkout/ HTTP/1.1" 500 77857
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 52, in checkout
+    context = {'items':items, 'order':order, 'cartItems':cartItems}
+UnboundLocalError: local variable 'cartItems' referenced before assignment
+"GET /store/checkout/ HTTP/1.1" 500 77857
+Not Found: /store/checkout/width
+"GET /store/checkout/width HTTP/1.1" 404 7685
+Internal Server Error: /admin/store/order/3/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/3/change/ HTTP/1.1" 500 118577
+Internal Server Error: /admin/store/orderedproduct/8/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\html.py", line 419, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 99, in as_widget
+    return widget.render(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\widgets.py", line 312, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 734, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 693, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 633, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1410, in __iter__
+    yield self.choice(obj)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1424, in choice
+    self.field.label_from_instance(obj),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1510, in label_from_instance
+    return str(obj)
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/orderedproduct/8/change/ HTTP/1.1" 500 697348
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type NoneType)
+"POST /admin/store/order/ HTTP/1.1" 500 141051
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type NoneType)
+"POST /admin/store/order/ HTTP/1.1" 500 141051
+Internal Server Error: /admin/store/order/3/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/3/change/ HTTP/1.1" 500 118577
+Internal Server Error: /admin/store/order/3/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/3/change/ HTTP/1.1" 500 118577
+Internal Server Error: /admin/store/order/4/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/4/change/ HTTP/1.1" 500 118577
+Internal Server Error: /admin/store/order/4/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/4/change/ HTTP/1.1" 500 118714
+Internal Server Error: /admin/store/order/3/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/3/change/ HTTP/1.1" 500 118577
+Internal Server Error: /admin/store/order/4/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/4/change/ HTTP/1.1" 500 118577
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type NoneType)
+"POST /admin/store/order/ HTTP/1.1" 500 141051
+Internal Server Error: /admin/store/order/4/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/4/change/ HTTP/1.1" 500 118577
+Internal Server Error: /admin/store/order/3/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/3/change/ HTTP/1.1" 500 118577
+Internal Server Error: /admin/store/orderedproduct/9/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\html.py", line 419, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 99, in as_widget
+    return widget.render(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\widgets.py", line 312, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 734, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 693, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 633, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1410, in __iter__
+    yield self.choice(obj)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1424, in choice
+    self.field.label_from_instance(obj),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1510, in label_from_instance
+    return str(obj)
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/orderedproduct/9/change/ HTTP/1.1" 500 696580
+Internal Server Error: /admin/store/orderedproduct/11/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\html.py", line 419, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 99, in as_widget
+    return widget.render(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\widgets.py", line 312, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 734, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 693, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 633, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1410, in __iter__
+    yield self.choice(obj)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1424, in choice
+    self.field.label_from_instance(obj),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1510, in label_from_instance
+    return str(obj)
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/orderedproduct/11/change/ HTTP/1.1" 500 696591
+Internal Server Error: /admin/store/orderedproduct/11/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\html.py", line 419, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 99, in as_widget
+    return widget.render(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\widgets.py", line 312, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 734, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 693, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 633, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1410, in __iter__
+    yield self.choice(obj)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1424, in choice
+    self.field.label_from_instance(obj),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1510, in label_from_instance
+    return str(obj)
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/orderedproduct/11/change/ HTTP/1.1" 500 696591
+Internal Server Error: /admin/store/orderedproduct/10/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\html.py", line 419, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 99, in as_widget
+    return widget.render(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\widgets.py", line 312, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 734, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 693, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 633, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1410, in __iter__
+    yield self.choice(obj)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1424, in choice
+    self.field.label_from_instance(obj),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1510, in label_from_instance
+    return str(obj)
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/orderedproduct/10/change/ HTTP/1.1" 500 696591
+Internal Server Error: /admin/store/orderedproduct/9/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\html.py", line 419, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 99, in as_widget
+    return widget.render(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\widgets.py", line 312, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 734, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 693, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 633, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1410, in __iter__
+    yield self.choice(obj)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1424, in choice
+    self.field.label_from_instance(obj),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1510, in label_from_instance
+    return str(obj)
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/orderedproduct/9/change/ HTTP/1.1" 500 696580
+Internal Server Error: /admin/store/order/4/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/4/change/ HTTP/1.1" 500 118499
+Internal Server Error: /admin/store/orderedproduct/9/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\html.py", line 419, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 99, in as_widget
+    return widget.render(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\widgets.py", line 312, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 734, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 693, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 633, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1410, in __iter__
+    yield self.choice(obj)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1424, in choice
+    self.field.label_from_instance(obj),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1510, in label_from_instance
+    return str(obj)
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/orderedproduct/9/change/ HTTP/1.1" 500 696502
+Internal Server Error: /admin/store/orderedproduct/9/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\html.py", line 419, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\boundfield.py", line 99, in as_widget
+    return widget.render(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\widgets.py", line 312, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 734, in get_context
+    context = super().get_context(name, value, attrs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 693, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\widgets.py", line 633, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1410, in __iter__
+    yield self.choice(obj)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1424, in choice
+    self.field.label_from_instance(obj),
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\forms\models.py", line 1510, in label_from_instance
+    return str(obj)
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/orderedproduct/9/change/ HTTP/1.1" 500 696502
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type NoneType)
+"POST /admin/store/order/ HTTP/1.1" 500 140973
+Internal Server Error: /admin/store/order/4/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type int)
+"GET /admin/store/order/4/change/ HTTP/1.1" 500 118474
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type int)
+"POST /admin/store/order/ HTTP/1.1" 500 140903
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: store_order.transaction_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: store_order.transaction_id
+"GET /admin/store/order/ HTTP/1.1" 500 167648
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: store_order.transaction_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 1866, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 357, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: store_order.transaction_id
+"GET /admin/store/order/ HTTP/1.1" 500 167511
+Internal Server Error: /admin/store/order/4/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type int)
+"GET /admin/store/order/4/change/ HTTP/1.1" 500 118474
+Internal Server Error: /admin/store/order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1964, in changelist_view
+    response = self.response_action(
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\actions.py", line 39, in delete_selected
+    ) = modeladmin.get_deleted_objects(queryset, request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 2104, in get_deleted_objects
+    return get_deleted_objects(objs, request, self.admin_site)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 153, in get_deleted_objects
+    to_delete = collector.nested(format_callback)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 220, in nested
+    roots.extend(self._nested(root, seen, format_callback))
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 206, in _nested
+    ret = [format_callback(obj)]
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\utils.py", line 128, in format_callback
+    no_edit_link = "%s: %s" % (capfirst(opts.verbose_name), obj)
+TypeError: __str__ returned non-string (type int)
+"POST /admin/store/order/ HTTP/1.1" 500 140873
+Internal Server Error: /admin/store/order/4/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type int)
+"GET /admin/store/order/4/change/ HTTP/1.1" 500 118474
+Internal Server Error: /admin/store/order/4/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/4/change/ HTTP/1.1" 500 118499
+Internal Server Error: /admin/store/order/3/change/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\contrib\admin\options.py", line 1859, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+TypeError: __str__ returned non-string (type NoneType)
+"GET /admin/store/order/3/change/ HTTP/1.1" 500 118499
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 76, in processOrder
+    customer, order = guestOrder(request, data)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\utils.py", line 64, in guestOrder
+    customer, created = Customer.objects.get_or_create(
+NameError: name 'Customer' is not defined
+"POST /store/process_order/ HTTP/1.1" 500 82380
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 76, in processOrder
+    customer, order = guestOrder(request, data)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\utils.py", line 64, in guestOrder
+    customer, created = Customer.objects.get_or_create(
+NameError: name 'Customer' is not defined
+"POST /store/process_order/ HTTP/1.1" 500 82638
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 72, in processOrder
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"POST /store/process_order/ HTTP/1.1" 500 81279
+Not Found: /admin'
+"GET /admin' HTTP/1.1" 404 6873
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 76, in processOrder
+    customer, order = guestOrder(request, data)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\utils.py", line 64, in guestOrder
+    customer, created = Customer.objects.get_or_create(
+NameError: name 'Customer' is not defined
+"POST /store/process_order/ HTTP/1.1" 500 82681
+Not Found: /process_order/
+"POST /process_order/ HTTP/1.1" 404 6883
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 69, in processOrder
+    data = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2288.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2288.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2288.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+"GET /store/process_order/ HTTP/1.1" 500 88603
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 76, in processOrder
+    customer, order = guestOrder(request, data)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\utils.py", line 64, in guestOrder
+    customer, created = Customer.objects.get_or_create(
+NameError: name 'Customer' is not defined
+"POST /store/process_order/ HTTP/1.1" 500 82681
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 69, in processOrder
+    data = json.loads(request.body)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2288.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2288.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2288.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+"GET /store/process_order/ HTTP/1.1" 500 88603
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 76, in processOrder
+    customer, order = guestOrder(request, data)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\utils.py", line 64, in guestOrder
+    customer, created = Customer.objects.get_or_create(
+NameError: name 'Customer' is not defined
+"POST /store/process_order/ HTTP/1.1" 500 82537
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 72, in processOrder
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"POST /store/process_order/ HTTP/1.1" 500 81253
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 72, in processOrder
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"POST /store/process_order/ HTTP/1.1" 500 81254
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 72, in processOrder
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"POST /store/process_order/ HTTP/1.1" 500 81254
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 72, in processOrder
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"POST /store/process_order/ HTTP/1.1" 500 81254
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 72, in processOrder
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"POST /store/process_order/ HTTP/1.1" 500 81254
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 35, in checkout
+    data = cartData(request)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\utils.py", line 44, in cartData
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/checkout/ HTTP/1.1" 500 84352
+Internal Server Error: /store/checkout/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 35, in checkout
+    data = cartData(request)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\utils.py", line 44, in cartData
+    customer = request.user.customer
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'customer'
+"GET /store/checkout/ HTTP/1.1" 500 84352
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 76, in processOrder
+    customer, order = guestOrder(request, data)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\utils.py", line 64, in guestOrder
+    customer, created = Customer.objects.get_or_create(
+NameError: name 'Customer' is not defined
+"POST /store/process_order/ HTTP/1.1" 500 82515
+Internal Server Error: /store/process_order/
+Traceback (most recent call last):
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\users\steve\documents\github\fall22-tech-comp\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\views.py", line 76, in processOrder
+    customer, order = guestOrder(request, data)
+  File "C:\Users\steve\Documents\GitHub\fall22-tech-comp\store\utils.py", line 64, in guestOrder
+    customer, created = Customer.objects.get_or_create(
+NameError: name 'Customer' is not defined
+"POST /store/process_order/ HTTP/1.1" 500 82532

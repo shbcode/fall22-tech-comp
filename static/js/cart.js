@@ -7,11 +7,10 @@ for (var l = 0; l < updateButtons.length; l++) {
         var productId = this.dataset.product
         var action = this.dataset.action
         console.log('Product Id: ', productId, 'Action: ', action)
-
         console.log('USER:', user)
         if (user == 'AnonymousUser'){
-            console.log('User is not currently authenticated')
-                    
+            console.log("It's anonymous")
+            addCookieItem(productId, action)
         }else{
             updateUserOrder(productId, action)
         }
@@ -34,4 +33,29 @@ function updateUserOrder(productId, action){
         .then((data) => {
             location.reload() // page reloads once call is successful which is a bit taxing but works effectively
         });
+}
+
+function addCookieItem(productId, action){
+    console.log('User is not authenticated')
+    console.log("NEWFUNCTIONHAPPENED")
+    console.log("ProductId:", productId)
+    console.log("Action:", action)
+    if (action == 'add'){
+        if (cart[productId] == undefined){
+            cart[productId] = {"quantity":1}
+        }else{
+            cart[productId]["quantity"] += 1
+        }
+    }
+
+    if (action == 'remove'){
+        cart[productId]["quantity"] -= 1
+        if (cart[productId]["quantity"] <= 0){
+            console.log("Item needs to be deleted")
+            delete cart[productId];
+        }
+    }
+    console.log("Cart:", cart)
+    document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
+    location.reload()
 }
